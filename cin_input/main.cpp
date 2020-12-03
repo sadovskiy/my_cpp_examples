@@ -1,3 +1,5 @@
+// Пример битов ввода/вывода (eofbit, failbit, badbit)
+
 #include <iostream>
 
 using namespace std;

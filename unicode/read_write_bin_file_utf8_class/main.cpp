@@ -1,4 +1,4 @@
-/*
+﻿/*
  *
  * Copyright (C) 2020. GPL
  *
@@ -88,7 +88,11 @@ void f2()
 
 int main()
 {
-    setlocale(LC_ALL, "ru_RU.UTF-8");
+#ifdef __linux__
+    // Включаем русскую локаль в языке Си++
+    locale loc("ru_RU.UTF-8");
+    locale::global(loc);
+#endif
     f1();
     f2();
 

@@ -10,10 +10,12 @@ array_new_func                         | Программа демонстрир
 cin_discard_character                  | Программа демонстрирует работу с игнорированием символа '\n'
 cin_input                              | Пример битов ввода/вывода (eofbit, failbit, badbit)
 class_const_func_mutable               | Программа демонстрирует работу с константами и классом
+cout_manip                             | Программа демонстрирует работу манипуляторами вывода выравнивая данные по столбцам
 crc16_modbus                           | Расчёт CRC
 diff_programming                       | Пример разницы процедурного и ООП подходов
 dynamic_cast_performance               | Производительность dynamic_cast [Tino Didrikse](http://tinodidriksen.com) Copyright 2010 Tino Didriksen <tino@didriksen.cc>
 exercise_vitual_metod_m1               | Задача. Почему будет вызван метод M1
+inheritance_ambiguity                  | Программа демонстрирует работу механизма наследования при ромбовидной иерархии классов и использование привидения типа для преодоления неоднозначности
 marix_in_dynamic_memory                | Программа демонстрирует работу с указателями и динамической памятью
 matrix_addition                        | Программа складывает
 matrix_and_array_in_auto_memory        | Программа демонстрирует работу с указателями и динамической памятью

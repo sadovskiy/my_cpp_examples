@@ -49,7 +49,7 @@ int main()
     // Посмотреть текущую локаль
     cout << "User-preferred locale setting is " << locale().name()
          << " (before set locale)" << endl;
-#ifdef __linux__
+#ifdef __linux__ || __APPLE__
 
     // Включаем русскую локаль в языке Си++
     locale ru_RU("ru_RU.UTF-8");
